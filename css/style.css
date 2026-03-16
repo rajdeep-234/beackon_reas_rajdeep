@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Sangblue Sunrise",sans-serif;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navlinks li{
+    list-style: none;
+    margin-left:45px;
+}
+.navlinks li a{
+    text-decoration: none;
+    color: black;
+}
+.navlinks li a:hover{
+    color: #e73d3d;
+}
+.btn{
+    border: 2px solid black;
+    border-radius:50px;
+}
+.banner{
+    background: url(../images/snd_dune.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+
+}
+.banner-image{
+    position: absolute;
+}
+.ban-head{
+    text-align: center;
+    width:70%;
+    margin:22px'
+}
+.ban-para{
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+}
+.ban-btn{
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 20px;
+    /* margin:300px; */
+    border-radius: 50px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.ban-btn:hover{
+    background-color: #e73d3d;
+}
+.property-head{
+    width:37%;
+    margin: 60px;
+}
+.card-head{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.card-btn{
+    text-decoration: none;
+    color: black;
+}
+.card-body{
+    margin: 20px;
+    padding: 50px;
+}
+#card_body_imp{
+    background-color: rgb(106, 14, 192);
+    color: aliceblue;
+}
+.test{
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+    width:100%
+}
